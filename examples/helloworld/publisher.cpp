@@ -51,7 +51,7 @@ int main() {
         }
 
         /* Create a message to write. */
-        HelloWorldData::Msg msg(1, "Hello World");
+        HelloWorldData::Msg msg(1, "Hello World, From Akki!");
 
         /* Write the message. */
         std::cout << "=== [Publisher] Write sample." << std::endl;
